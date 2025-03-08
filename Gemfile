@@ -29,7 +29,7 @@ gem 'pg', require: false
 gem 'premailer-rails'
 gem 'pretender'
 gem 'puma', require: false
-gem 'rack'
+gem 'rack', '>= 3.1.11'
 gem 'rails'
 gem 'rails_autolink'
 gem 'rails-i18n'
