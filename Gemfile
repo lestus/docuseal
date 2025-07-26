@@ -27,21 +27,21 @@ gem 'oj'
 gem 'pagy'
 gem 'pg', require: false
 gem 'premailer-rails'
-gem 'pretender'
+gem 'pretender', '>= 0.6.0'
 gem 'puma', require: false
 gem 'rack'
-gem 'rails'
+gem 'rails', '>= 8.0.2'
 gem 'rails_autolink'
 gem 'rails-i18n'
 gem 'rotp'
 gem 'rqrcode'
 gem 'ruby-vips'
 gem 'rubyXL'
-gem 'shakapacker'
+gem 'shakapacker', '>= 8.1.0'
 gem 'sidekiq'
 gem 'sqlite3', require: false
 gem 'strip_attributes'
-gem 'turbo-rails'
+gem 'turbo-rails', '>= 2.0.12'
 gem 'twitter_cldr', require: false
 gem 'tzinfo-data'
 
@@ -50,11 +50,11 @@ group :development, :test do
   gem 'better_html'
   gem 'bullet'
   gem 'debug'
-  gem 'erb_lint', require: false
-  gem 'factory_bot_rails'
+  gem 'erb_lint', '>= 0.8.0', require: false
+  gem 'factory_bot_rails', '>= 6.5.0'
   gem 'faker'
   gem 'pry-rails'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 7.1.1'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
@@ -69,6 +69,6 @@ end
 
 group :test do
   gem 'capybara'
-  gem 'cuprite'
+  gem 'cuprite', '>= 0.16'
   gem 'webmock'
 end
