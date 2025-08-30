@@ -30,9 +30,9 @@ gem 'premailer-rails'
 gem 'pretender'
 gem 'puma', require: false
 gem 'rack'
-gem 'rails'
+gem 'rails', '>= 8.0.2.1'
 gem 'rails_autolink'
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 8.0.2'
 gem 'rotp'
 gem 'rqrcode'
 gem 'ruby-vips'
@@ -46,7 +46,7 @@ gem 'twitter_cldr', require: false
 gem 'tzinfo-data'
 
 group :development, :test do
-  gem 'annotate'
+  gem 'annotate', '>= 2.6.6'
   gem 'better_html'
   gem 'bullet'
   gem 'debug'
