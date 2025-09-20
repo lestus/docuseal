@@ -47,7 +47,7 @@ gem 'tzinfo-data'
 
 group :development, :test do
   gem 'annotate'
-  gem 'better_html'
+  gem 'better_html', '>= 2.2.0'
   gem 'bullet'
   gem 'debug'
   gem 'erb_lint', require: false
@@ -70,5 +70,5 @@ end
 group :test do
   gem 'capybara'
   gem 'cuprite'
-  gem 'webmock'
+  gem 'webmock', '>= 3.25.0'
 end
