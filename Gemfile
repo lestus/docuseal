@@ -36,7 +36,7 @@ gem 'rails-i18n'
 gem 'rotp'
 gem 'rqrcode'
 gem 'ruby-vips'
-gem 'rubyXL'
+gem 'rubyXL', '>= 3.4.34'
 gem 'shakapacker'
 gem 'sidekiq'
 gem 'sqlite3', require: false
