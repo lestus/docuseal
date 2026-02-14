@@ -15,9 +15,9 @@ gem 'devise'
 gem 'devise-two-factor'
 gem 'dotenv', require: false
 gem 'email_typo'
-gem 'faraday'
-gem 'faraday-follow_redirects'
-gem 'google-cloud-storage', require: false
+gem 'faraday', '>= 2.14.1'
+gem 'faraday-follow_redirects', '>= 0.4.0'
+gem 'google-cloud-storage', '>= 1.55.0', require: false
 gem 'hexapdf'
 gem 'image_processing'
 gem 'jwt'
